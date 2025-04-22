@@ -1,0 +1,87 @@
+body {
+    font-family: monospace;
+    font-size: 12pt;
+    color: #000000;
+    margin: 0px;
+    height: 100%;
+    background: #ffffff;
+    text-align: center;
+  }
+
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 1.5em;
+    max-width: 98.5%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  details[open] {
+    padding: 0.5em 1.5em 1.5em;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    list-style: none;
+    text-align: left;
+    /* max-width: 98.5%; */
+  }
+
+  summary[open] {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em 0.5em;
+    list-style: none;
+    text-align: left;
+    /* max-width: 98.5%; */
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+a:link {  
+    color: #0000d0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover, a:visited:hover {  
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  a:visited { 
+    color: #0000d0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+div#menu {
+    margin-top: 0px;
+    margin-bottom: 0.75em;
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  div#menu a {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  div#menu a:hover {
+    color: #ffffff;
+    background-color: #0000d0;
+  }
+  
+  div#menu a.active-menu {
+    color: #ffffff;
+    background-color: #0000d0;
+  }
