@@ -10,7 +10,8 @@
     Artificial Intelligence, Machine Learning, Creative Coding, Creative Technologist, Game Dev, Game Development, Game Developer">
     <link type="text/css" rel="stylesheet" href="style.css">
     <!-- Jquery -->
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery.js"></script> -->
+    <script src="works/elm_blackjack/elm-blackjack.js"></script>
   </head>
   <body>
     <h1>
@@ -53,10 +54,12 @@
 
     <details>
       <summary><h1>selected works</h1></summary>
-        <script src="./works/elm_blackjack/elm-blackjack.js"></script>
-      ***more to come***
+        <div id="elm-blackjack"></div>
+        <script>
+        var app = Elm.BlackJack.init({node: document.getElementById('elm-blackjack')});
+        </script>
+        ***more to come soon***
     </details>
-
     <!-- Bio section -->
     <section id="bio" class="bio-section">
         <div class="container">
