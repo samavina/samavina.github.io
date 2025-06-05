@@ -24,25 +24,6 @@
       <a class="menu" id="menu-linkedin" href="https://www.linkedin.com/in/samuel-avina-755606166/" target="_blank">linkedin</a>
       <a class="menu" id ="menu-resume" href="./assets/Sam_Avina_Resume.pdf" target="_blank">resume</a>
     </div>
-    <!-- <div id="content">
-      <h3>
-        About me
-      </h3>
-    </div> -->
-
-          <!-- Intro Section -->
-    <!-- <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Sam Avina</h1>
-                  <h3>Software engineer at JPMorganChase</h3>
-                  <p>I work on applications that impact millions of customers each day.</p>
-                    <a class="btn btn-default page-scroll" href="#bio">Short Bio</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <details>
       <summary><h1>about me</h1></summary>
@@ -54,10 +35,15 @@
 
     <details>
       <summary><h1>selected works</h1></summary>
-        <div id="elm-blackjack"></div>
-        <script>
-        var app = Elm.BlackJack.init({node: document.getElementById('elm-blackjack')});
-        </script>
+        <div class="collection-items">
+          <div class="collection-item" id="elm-blackjack"></div>
+          <script>
+          var app = Elm.BlackJack.init({node: document.getElementById('elm-blackjack')});
+          </script>
+          <br>
+          An implementation of blackjack written in the Elm programming language during my Functional Programming course in Spring 2020. The game is notably missing a few player actions such as double, split, and insurance. Additionally, I think there's an issue with the shuffling logic that causes similar values to "clump" together. Still, this is the college project that I am most proud of.
+        </div>
+        <br>
         ***more to come soon***
     </details>
     <!-- Bio section -->
@@ -65,6 +51,5 @@
         <div class="container">
         </div>
       </section>
-      <!--/ Bio Section -->
   </body>
 </html>

@@ -20,6 +20,7 @@ body {
 
   details[open] {
     padding: 0.5em 1.5em 1.5em;
+    max-width: 98.5%;
   }
   
   summary {
@@ -84,4 +85,16 @@ div#menu {
   div#menu a.active-menu {
     color: #ffffff;
     background-color: #0000d0;
+  }
+
+  .collection-items {
+    display: flex;
+    flex-direction: column;
+    flex: auto
+  }
+
+  .collection-item {
+    flex-shrink: 2;
+    max-width: 50%;
+    margin: 0 auto
   }
